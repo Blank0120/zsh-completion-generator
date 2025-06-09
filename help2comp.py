@@ -3,7 +3,7 @@
 
 # Parse getopt-style help texts for options
 # and generate zsh(1) completion function.
-# http://github.com/RobSis/zsh-completion-generator
+# http://github.com/Blank0120/zsh-completion-generator
 
 # Usage: program --help | ./help2comp.py program_name
 
@@ -12,7 +12,7 @@ import re
 from string import Template
 
 
-URL = 'http://github.com/RobSis/zsh-completion-generator'
+URL = 'http://github.com/Blank0120/zsh-completion-generator'
 STRIP_CHARS = " \t\n,="
 
 COMPLETE_FUNCTION_TEMPLATE = """

@@ -3,7 +3,7 @@
 # date +%H:%M:%S.%N   # profiling info
 # Parse getopt-style help texts for options
 # and generate zsh(1) completion functions.
-# http://github.com/RobSis/zsh-completion-generator
+# http://github.com/Blank0120/zsh-completion-generator
 
 # Fetch $0 according to plugin standard proposed at:
 # http://zdharma.org/Zsh-100-Commits-Club/Zsh-Plugin-Standard.html

@@ -19,23 +19,22 @@ How to install
 --------------
 ### Using antigen
 
-After installing antigen put `antigen bundle RobSis/zsh-completion-generator`
+After installing antigen put `antigen bundle Blank0120/zsh-completion-generator`
 into your `.zshrc`.
 
-### Using Fig
+### Using [zimfw](https://github.com/zimfw/zimfw)
 
-[Fig](https://fig.io) adds apps, shortcuts, and autocomplete to your existing terminal.
-
-Install `zsh-completion-generator` in just one click.
-
-<a href="https://fig.io/plugins/other/zsh-completion-generator_RobSis" target="_blank"><img src="https://fig.io/badges/install-with-fig.svg" /></a>
+in your ~/.zimrc
+```.zimrc
+zmodule Blank0120/zsh-completion-generator
+```
 
 ### Manually
 * Download the script or clone this repository:
 
     `$ cd ~/.zsh/`
     
-    `$ git clone git://github.com/RobSis/zsh-completion-generator.git`
+    `$ git clone git://github.com/Blank0120/zsh-completion-generator.git`
 
 * Source the script **before compinit** in your `~/.zshrc`:
 
