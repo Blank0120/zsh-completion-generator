@@ -6,7 +6,7 @@
 # http://github.com/Blank0120/zsh-completion-generator
 
 # Fetch $0 according to plugin standard proposed at:
-# http://zdharma.org/Zsh-100-Commits-Club/Zsh-Plugin-Standard.html
+# https://zdharma-continuum.github.io/Zsh-100-Commits-Club/Zsh-Plugin-Standard.html
 0="${${ZERO:-${0:#$ZSH_ARGZERO}}:-${(%):-%N}}"
 ZSH_COMPLETION_GENERATOR_SRCDIR=${0:A:h}
 
