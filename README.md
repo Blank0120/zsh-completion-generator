@@ -30,13 +30,13 @@ zmodule Blank0120/zsh-completion-generator
 ```
 
 ### Manually
-* Download the script or clone this repository:
+- Download the script or clone this repository:
 
     `$ cd ~/.zsh/`
     
     `$ git clone git://github.com/Blank0120/zsh-completion-generator.git`
 
-* Source the script **before compinit** in your `~/.zshrc`:
+- Source the script **before compinit** in your `~/.zshrc`:
 
     `source $HOME/.zsh/zsh-completion-generator/zsh-completion-generator.plugin.zsh`
     
@@ -61,19 +61,20 @@ GENCOMPL_PY variable before sourcing the plugin :
 
 How to use
 ----------
-Provide default program list by (example):
+- Provide default program list by (example):
 
-```zsh
-zstyle :plugin:zsh-completion-generator programs   ggrep tr cat
-```
+    ```zsh
+    zstyle :plugin:zsh-completion-generator programs   ggrep tr cat
+    ```
 
-The plugin will create completions for those programs at load time, once.
-You can also generate completions from the shell, by using provided `gencomp`
+    The plugin will create completions for those programs at load time, once.
+
+- You can also generate completions from the shell, by using provided `gencomp`
 function:
 
-    $ gencomp ggrep
-    $ source ~/.zshrc # or run `compinit'
-    $ ggrep -*[TAB]* -> magic
+        $ gencomp ggrep
+        $ source ~/.zshrc # or run `compinit'
+        $ ggrep -*[TAB]* -> magic
 
 Licence
 -------
